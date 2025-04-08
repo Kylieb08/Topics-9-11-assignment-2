@@ -20,6 +20,7 @@ namespace Topics_9_11_assignment_2
         private void btnCelsius_MouseLeave(object sender, EventArgs e)
         {
             imgTemp.Visible = false;
+            lblIcebergHouse.Visible = false;
         }
 
         private void btnCelsius_MouseEnter(object sender, EventArgs e)
@@ -29,6 +30,7 @@ namespace Topics_9_11_assignment_2
             if (temperature < 0)
             {
                 imgTemp.Image = Properties.Resources.Iceberg;
+                lblIcebergHouse.Visible = true;
             }
             else if (temperature >= 0 && temperature <= 25)
             {
@@ -51,6 +53,7 @@ namespace Topics_9_11_assignment_2
         private void btnFarenheight_MouseLeave(object sender, EventArgs e)
         {
             imgTemp.Visible = false;
+            lblIcebergHouse.Visible = false;
         }
 
         private void btnFarenheight_MouseEnter(object sender, EventArgs e)
@@ -60,6 +63,7 @@ namespace Topics_9_11_assignment_2
             if (temperature < 32)
             {
                 imgTemp.Image = Properties.Resources.Iceberg;
+                lblIcebergHouse.Visible = true;
             }
 
             else if (temperature >= 32 && temperature <= 77)

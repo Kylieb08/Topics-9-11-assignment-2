@@ -33,6 +33,7 @@
             this.btnFarenheight = new System.Windows.Forms.Button();
             this.numTemp = new System.Windows.Forms.NumericUpDown();
             this.imgTemp = new System.Windows.Forms.PictureBox();
+            this.lblIcebergHouse = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).BeginInit();
             this.SuspendLayout();
@@ -99,12 +100,23 @@
             this.imgTemp.TabStop = false;
             this.imgTemp.Visible = false;
             // 
+            // lblIcebergHouse
+            // 
+            this.lblIcebergHouse.AutoSize = true;
+            this.lblIcebergHouse.Location = new System.Drawing.Point(295, 377);
+            this.lblIcebergHouse.Name = "lblIcebergHouse";
+            this.lblIcebergHouse.Size = new System.Drawing.Size(130, 13);
+            this.lblIcebergHouse.TabIndex = 6;
+            this.lblIcebergHouse.Text = "Is this perhaps your house";
+            this.lblIcebergHouse.Visible = false;
+            // 
             // FormTempGauge
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblIcebergHouse);
             this.Controls.Add(this.imgTemp);
             this.Controls.Add(this.numTemp);
             this.Controls.Add(this.btnFarenheight);
@@ -125,6 +137,7 @@
         private System.Windows.Forms.Button btnFarenheight;
         private System.Windows.Forms.NumericUpDown numTemp;
         private System.Windows.Forms.PictureBox imgTemp;
+        private System.Windows.Forms.Label lblIcebergHouse;
     }
 }
 
