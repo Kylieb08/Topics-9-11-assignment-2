@@ -33,7 +33,7 @@
             this.btnFarenheight = new System.Windows.Forms.Button();
             this.numTemp = new System.Windows.Forms.NumericUpDown();
             this.imgTemp = new System.Windows.Forms.PictureBox();
-            this.lblIcebergHouse = new System.Windows.Forms.Label();
+            this.lblHouse = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).BeginInit();
             this.SuspendLayout();
@@ -100,15 +100,17 @@
             this.imgTemp.TabStop = false;
             this.imgTemp.Visible = false;
             // 
-            // lblIcebergHouse
+            // lblHouse
             // 
-            this.lblIcebergHouse.AutoSize = true;
-            this.lblIcebergHouse.Location = new System.Drawing.Point(295, 377);
-            this.lblIcebergHouse.Name = "lblIcebergHouse";
-            this.lblIcebergHouse.Size = new System.Drawing.Size(130, 13);
-            this.lblIcebergHouse.TabIndex = 6;
-            this.lblIcebergHouse.Text = "Is this perhaps your house";
-            this.lblIcebergHouse.Visible = false;
+            this.lblHouse.AutoSize = true;
+            this.lblHouse.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHouse.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblHouse.Location = new System.Drawing.Point(295, 362);
+            this.lblHouse.Name = "lblHouse";
+            this.lblHouse.Size = new System.Drawing.Size(153, 14);
+            this.lblHouse.TabIndex = 6;
+            this.lblHouse.Text = "Is this perhaps your house";
+            this.lblHouse.Visible = false;
             // 
             // FormTempGauge
             // 
@@ -116,7 +118,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblIcebergHouse);
+            this.Controls.Add(this.lblHouse);
             this.Controls.Add(this.imgTemp);
             this.Controls.Add(this.numTemp);
             this.Controls.Add(this.btnFarenheight);
@@ -137,7 +139,7 @@
         private System.Windows.Forms.Button btnFarenheight;
         private System.Windows.Forms.NumericUpDown numTemp;
         private System.Windows.Forms.PictureBox imgTemp;
-        private System.Windows.Forms.Label lblIcebergHouse;
+        private System.Windows.Forms.Label lblHouse;
     }
 }
 

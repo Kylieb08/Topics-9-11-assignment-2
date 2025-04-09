@@ -93,6 +93,16 @@ namespace Topics_9_11_assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap House_on_fire {
+            get {
+                object obj = ResourceManager.GetObject("House_on_fire", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Iceberg {
             get {
                 object obj = ResourceManager.GetObject("Iceberg", resourceCulture);

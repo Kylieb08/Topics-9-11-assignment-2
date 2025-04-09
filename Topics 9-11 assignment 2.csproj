@@ -125,5 +125,8 @@
   <ItemGroup>
     <None Include="Resources\you wouldnt enter an invalid input.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House on fire.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
